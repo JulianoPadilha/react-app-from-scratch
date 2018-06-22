@@ -4,13 +4,16 @@
   "description": "https://hackernoon.com/react-app-from-scratch-d694300d1631",
   "main": "index.js",
   "scripts": {
-    "test": "eslint ."
+    "test": "eslint .",
+    "start": "webpack-dev-server --inline",
+    "build": "NODE_ENV=production webpack"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.3",
     "babel-loader": "^7.1.4",
     "babel-plugin-lodash": "^3.3.4",
     "babel-plugin-transform-class-properties": "^6.24.1",
@@ -43,6 +46,20 @@
   },
   "dependencies": {
     "babel-polyfill": "^6.26.0",
-    "react-hot-loader": "^4.3.2"
+    "localforage": "^1.7.2",
+    "lodash": "^4.17.10",
+    "moment": "^2.22.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-hot-loader": "^4.3.2",
+    "react-loadable": "^5.4.0",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.3.1",
+    "react-router-redux": "^4.0.8",
+    "react-toolbox": "^2.0.0-beta.13",
+    "react-virtualized": "^9.19.1",
+    "redux": "^4.0.0",
+    "redux-observable": "^1.0.0",
+    "rxjs": "^6.2.1"
   }
 }
