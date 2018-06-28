@@ -1,4 +1,4 @@
-const { path } = require('path');
+const path = require('path');
 
 const vendor = require('./vendor');
 const rules = require('./rules');
